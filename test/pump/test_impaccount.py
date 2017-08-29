@@ -11,7 +11,8 @@ class TestImpAccount(unittest.TestCase):
     def test_simple_imp(self):
         imp = ImpAccount()
         imp.read('C:/Data/ci_acct_test.csv')
-        self.assertEqual(42 , imp.row_count)
+        self.assertEqual(141268 , imp.row_count)
+
 
 if __name__ == '__main__':
     unittest.main()

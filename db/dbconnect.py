@@ -2,6 +2,9 @@ import postgresql
 
 
 class DBConnect:
+    """
+    Соединение с PostgreSQL
+    """
     db = None
 
     @classmethod

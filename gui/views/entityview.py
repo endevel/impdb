@@ -5,6 +5,9 @@ from PyQt5.QtWidgets import QWidget
 
 
 class EntityView(QWidget):
+    """
+    Окно выбора таблиц для импорта
+    """
     def __init__(self):
         super().__init__()
         self.entity_list = QComboBox()
